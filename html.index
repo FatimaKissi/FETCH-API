@@ -13,3 +13,4 @@ p    {color: black;}
 <h2>Wall Items</h2>
 <script src="./fetchGet.js"></script>
 </body>
+</html>

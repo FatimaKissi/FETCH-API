@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<head>
+<title>API Exercise</title>
+</head>
+<body>
+<h2>Wall Items</h2>
+<p>This application will:
+1- Fetch an array of wall items from a database
+2- Display those items on the website
+3- Allow users to enter their own items
+</p>
+</body>

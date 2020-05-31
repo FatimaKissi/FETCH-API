@@ -1,4 +1,4 @@
-fetch('https://2ubiyjczwh.execute-api.eu-west-2.amazonaws.com/wall').then(response => response.json()).then(data => appendData(data))
+fetch('https://2ubiyjczwh.execute-api.eu-west-2.amazonaws.com/wall').then(response => response.json()).then(data => Console.log(data))
 
 if (localStorage.getItem('test') == "key") {
   console.log("It's there!")

@@ -1,4 +1,5 @@
-fetch('https://2ubiyjczwh.execute-api.eu-west-2.amazonaws.com/wall').then(response => response.json()).then(data => appendData(data)
+fetch('https://2ubiyjczwh.execute-api.eu-west-2.amazonaws.com/wall').then(
+    response => response.json()).then(data => console.log(data)
 )
 function appendData(wallItems) {
     wallItems.forEach(function(element){
